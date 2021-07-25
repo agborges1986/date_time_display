@@ -1,0 +1,16 @@
+*{
+    text-align: center;
+    padding: 5px;
+}
+h1 {
+    color: blueviolet;
+    display: block;
+    padding: 10px;
+}
+h3 {
+    color: green;
+    outline: black solid 3px;
+    display: inline;
+    padding: 10px;
+}
+
