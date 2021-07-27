@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Templates Django</title>
-    {% load static %}
-    <link rel="stylesheet" href="{%static 'css/style.css' %}">
-</head>
-<body>
+{% extends 'base.html' %}
+
+
+{% block datetime %}
     <div>
         <h3>La Fecha y Hora actual es:</h3>
     </div>
@@ -20,5 +13,5 @@
         <h3>Utilizo datetime</h3>
         <h1>La fecha es: {{datetime}}</h1>
     </div>
-</body>
-</html>
+{% endblock datetime %}
+    
